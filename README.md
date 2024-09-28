@@ -1,2 +1,2 @@
 # HeroesAdminPanel
-ReactJs-Redux-Toolkit
+ReactJs-Redux-Toolkit-JsonServer
