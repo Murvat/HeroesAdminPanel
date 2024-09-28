@@ -1,0 +1,42 @@
+{
+  "heroes": [
+    {
+      "id": "a5d70ffd-55cc-4d42-8a1e-112a611f7a0d",
+      "name": "Murvat",
+      "description": "Engineer",
+      "element": "water"
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "name": "all",
+      "label": "All",
+      "className": "btn-outline-dark"
+    },
+    {
+      "id": "fire",
+      "name": "fire",
+      "label": "fire",
+      "className": "btn-danger"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "label": "water",
+      "className": "btn-primary"
+    },
+    {
+      "id": "wind",
+      "name": "wind",
+      "label": "wind",
+      "className": "btn-success"
+    },
+    {
+      "id": "earth",
+      "name": "earth",
+      "label": "earth",
+      "className": "btn-secondary"
+    }
+  ]
+}
