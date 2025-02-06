@@ -59,7 +59,7 @@ const HeroesAddForm = () => {
                     name="name" 
                     className="form-control" 
                     id="name" 
-                    placeholder="Как меня зовут?"
+                    placeholder="What is my name?"
                     value={heroName}
                     onChange={(e) => setHeroName(e.target.value)}/>
             </div>
@@ -71,7 +71,7 @@ const HeroesAddForm = () => {
                     name="text" 
                     className="form-control" 
                     id="text" 
-                    placeholder="Что я умею?"
+                    placeholder="What can i do?"
                     style={{"height": '130px'}}
                     value={heroDescr}
                     onChange={(e) => setHeroDescr(e.target.value)}/>
