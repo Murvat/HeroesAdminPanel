@@ -25,7 +25,7 @@ The **Heroes Management App** is a simple React and Redux application for managi
 
 ### Adding Heroes
 - Fill out the form with the hero's name, description, and element.
-- Click "Создать" (Create).
+- Click 'Create'.
 
 ### Filtering Heroes
 - Use the filter buttons to display heroes by their element.
