@@ -34,9 +34,9 @@ const HeroesAddForm = () => {
 
     const renderFilters = (filters, status) => {
         if (status === "loading") {
-            return <option>Загрузка элементов</option>
+            return <option>Loading ...</option>
         } else if (status === "error") {
-            return <option>Ошибка загрузки</option>
+            return <option>Error ...</option>
         }
         
         if (filters && filters.length > 0 ) {
