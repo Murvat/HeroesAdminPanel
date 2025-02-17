@@ -1,10 +1,10 @@
 import HeroesList from '../heroesList/HeroesList';
 import HeroesAddForm from '../heroesAddForm/HeroesAddForm';
 import HeroesFilters from '../heroesFilters/HeroesFilters';
-
+import type { FC } from 'react';
 import './app.scss';
 
-const App = () => {
+const App:FC = () => {
     
     return (
         <main className="app">

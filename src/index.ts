@@ -6,10 +6,11 @@ import store from "./store";
 
 import "./styles/index.scss";
 
-const container = document.getElementById("root");
+const container = document.getElementById("root") as HTMLDivElement;
 const root = createRoot(container);
-root.render(
-	<Provider store={store}>
-		<App />
-	</Provider>
-);
+
+// root.render(
+//   <Provider store={store}>
+//     <App />
+//   </Provider>
+// );
